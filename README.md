@@ -1,6 +1,7 @@
 Usage:
 
-python main.py <input file> <format> <size> <encodings>
+python main.py `input file` `format` `size` `encodings`
+<br />
 <br />
 input file: A fasta file containing amino acid sequences<br />
 format: "dict" -> Result is saved as a pickle file. Inside the file, there is a dictionary where protein names are keys and feature matrices(list of numpy arrays) are values.<br />
